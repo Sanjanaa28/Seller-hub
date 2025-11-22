@@ -175,7 +175,7 @@ const Chatbot = () => {
     const queryLower = query.toLowerCase();
     
     // GEMINI API INTEGRATION
-    const API_KEY = 'AIzaSyBUSzxkEQy0D39Zlqn35c0OeKG6pDm_lOc';
+    const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
     
     try {
       const contextText = context.map(doc => 
