@@ -1,18 +1,17 @@
 # 🛒 Seller Hub
 
-**Walmart SellerHub** is a prototype **seller dashboard and analytics platform** built for the **Walmart Sparkathon**, aimed at enhancing **retail supply chain visibility** and **seller operations** through AI-driven insights, product optimization tools, and visibility predictions.
+# 🚀 Seller Hub System
 
-🎥 **[Demo Video](https://youtu.be/wPLDmEx6Nto)**  
-📊 **[Pitch Deck / PPT (Canva)](https://www.canva.com/design/DAGtEVUBwbk/YgmWQxJnKoy92sbpKw-lfQ/edit)**  
-🌐 **[Live Demo (Deployed Link)](https://walmart-sellerhub.vercel.app/)**
+An AI-powered Seller Platform inspired by Amazon Polaris and Walmart Seller Hub — built with React, Python (Flask/FastAPI), SQLite, Random Forest ML, Gemini API, and Leaflet Maps.
 
----
+Backend Repository: https://github.com/Samtoosoon/backend_polaris  
+ML App Demo: https://polarisoptimizer.streamlit.app/
 
-## 🏆 Walmart Sparkathon Project
+ 
+📊 **[Pitch Deck / PPT (Canva)](https://www.canva.com/design/DAG5M4tsCTQ/e_fr774Qs5SgLH32ucJWUA/edit)**  
 
-Developed as a submission for **Walmart Sparkathon 2025**, this project introduces innovative solutions to improve seller productivity, listing performance, and order fulfillment using **AI**, **data visualization**, and **ML models**.
+🌐 **[Live Demo (Deployed Link)](https://seller-hub-bm8t.vercel.app/)**  
 
----
 
 ## ✨ Features
 
@@ -21,7 +20,6 @@ Developed as a submission for **Walmart Sparkathon 2025**, this project introduc
 - Interactive dashboard with simulated key metrics: **revenue, orders, and trends**
 - Built using **hardcoded sample data** to demonstrate **UI/UX flow** and potential business insights
 
----
 
 ### 🗺️ Order Fulfillment
 
@@ -31,7 +29,6 @@ Developed as a submission for **Walmart Sparkathon 2025**, this project introduc
   - Shows estimated distance, delivery time, and charges  
   - _Example: ₹163 for 31.57 km_
 
----
 
 ### 🤖 AI Assistant (Gemini API)
 
@@ -42,7 +39,6 @@ Integrated Gemini-powered assistant to help sellers:
 - Analyze **competitors** and **sales strategy**
 - **Voice input** support and **multilingual** output
 
----
 
 ### 🔍 Product Visibility Predictor (Python ML)
 
@@ -50,7 +46,6 @@ Integrated Gemini-powered assistant to help sellers:
 - Input: title, price stability, stock status, pincodes, etc.
 - Output: **visibility score** based on Polaris-like logic
 
----
 
 ## 🛠️ Tech Stack
 
@@ -64,28 +59,4 @@ Integrated Gemini-powered assistant to help sellers:
 - Python (Flask/FastAPI) for ML endpoint
 - Trained Random Forest model for visibility predictions
 
----
 
-##  🏅 Sparkathon Value Proposition
-
-- 📈 Sample-based data for dashboard & analytics  
-- 🗺️ Interactive map for delivery tracking  
-- 🧠 AI Assistant for boosting product content
-- 🔍 ML predictions for product visibility
-- ⚛️ Modular React architecture for scalability
-
-
-
-
-
-
-
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/sanyxmm/Walmart-SellerHub.git
-cd Walmart-SellerHub
